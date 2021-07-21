@@ -1,5 +1,5 @@
 const jwt = require("express-jwt");
-const config = require("./config");
+const config = require("../config");
 const secret = config.jwtSecret;
 
 function authorize() {
